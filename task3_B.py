@@ -1,7 +1,6 @@
 def longest_words(file):
     try:
         dict = {}
-        # lst_max = ["", "", "", "", ""]
         fhand = open(file)
         for line in fhand:
             new_line = line.rstrip('\n-.(,')
